@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "commentFetch.js",
   "scripts": {
-    "fetch:comments": "node ./lib/fetchComments.js"
+    "fetch:comments": "node ./lib/fetchComments.js",
+    "analyze:comments": "node ./lib/analyzeComments.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/prince-thind/reddit-api#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "jsdom": "^20.0.3",
     "snoowrap": "^1.23.0"
   }
 }
