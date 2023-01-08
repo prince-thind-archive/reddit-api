@@ -3,7 +3,7 @@ just some trivial comment analysis and stuff with reddit api using the snoowrap 
 
 # .env format
 
-userAgent=
-clientId=
-clientSecret=
-refreshToken=
+userAgent=  
+clientId=  
+clientSecret=  
+refreshToken=  
