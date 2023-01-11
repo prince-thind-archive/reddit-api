@@ -5,7 +5,8 @@
   "main": "commentFetch.js",
   "scripts": {
     "fetch:comments": "node ./lib/fetchComments.js",
-    "analyze:comments": "node ./lib/analyzeComments.js"
+    "analyze:comments": "node ./lib/analyzeComments.js",
+    "delete:comments":"node ./lib/deleteComments.js"
   },
   "repository": {
     "type": "git",
